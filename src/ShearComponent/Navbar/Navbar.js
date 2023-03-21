@@ -49,6 +49,14 @@ export default function Navbar() {
                   Blog
                 </li>
               </NavLink>
+              <NavLink
+                to="/blog"
+                className="text-lg shadow-lg font-semibold  lg:py-1 md:py-1  lg:px-4 md:px-4 lg:rounded-full md:rounded-full lg:hover:bg-red-500 md:hover:bg-red-500 lg:hover:text-white md:hover:text-white lg:duration-300 md:duration-300"
+              >
+                <li className=" py-1 lg:py-0 md:py-0 px-3 lg:px-0 md:px-0 shadow lg:shadow-none md:shadow-none lg:mb-0 md:mb-0 mb-3 drop-shadow-lg shadow-black lg:bg-transparent md:bg-transparent hover:bg-red-500 duration-300 hover:text-white ">
+                  Cart
+                </li>
+              </NavLink>
               <NavLink>
                 <li className="lg:hidden md:hidden py-1 lg:py-0 md:py-0 px-3 lg:px-0 md:px-0 shadow lg:shadow-none md:shadow-none lg:mb-0 md:mb-0 mb-3 drop-shadow-lg shadow-black font-semibold lg:bg-transparent md:bg-transparent hover:bg-red-500 duration-300 hover:text-white">
                   Profile

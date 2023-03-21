@@ -1,3 +1,4 @@
+import Error from "../Component/Error/Error";
 import Shoping from "../Component/Pages/Shoping/Shoping";
 
 const {
@@ -10,7 +11,7 @@ const { default: RootLayout } = require("../Component/RootLayout/RootLayout");
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
+    <Route errorElement={<Error />}>
       <Route element={<RootLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
